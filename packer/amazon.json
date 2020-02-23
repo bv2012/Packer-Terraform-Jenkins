@@ -6,9 +6,7 @@
     "ami_regions": [
       "us-east-1"
     ],
-    "ami_users": [
-      "buildmaster"
-    ],
+    "ami_users": [],
     "ena_support": "true",
     "instance_type": "t2.medium",
     "region": "us-east-1",
