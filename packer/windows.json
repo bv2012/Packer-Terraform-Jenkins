@@ -34,6 +34,7 @@
       "winrm_username": "Administrator",
       "winrm_insecure": true,
       "winrm_use_ssl": true,
+      "subnet_id": "subnet-5e0ee606",
       "tags": {
         "Name": "{{user `ami-name`}}"
       },
