@@ -20,3 +20,6 @@ Packer version is `v1.4.2`.
 &nbsp;
 
 * **Windows Slave**: `packer build windows.json`
+
+
+https://medium.com/velotio-perspectives/using-packer-and-terraform-to-setup-jenkins-master-slave-architecture-7bcc4b014874

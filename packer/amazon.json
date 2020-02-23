@@ -7,7 +7,7 @@
       "us-east-1"
     ],
     "ami_users": [
-      "XXXXXXXXXX"
+      "buildmaster"
     ],
     "ena_support": "true",
     "instance_type": "t2.medium",
@@ -25,6 +25,7 @@
     },
     "sriov_support": "true",
     "ssh_username": "ec2-user",
+    "subnet_id": "subnet-5e0ee606",
     "tags": {
       "Name": "{{user `ami-name`}}"
     },
