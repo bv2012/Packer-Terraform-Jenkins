@@ -33,7 +33,7 @@ resource "aws_security_group_rule" "jenkins_worker_windows_from_rdp" {
   to_port           = 3389
   protocol          = "tcp"
   security_group_id = "${aws_security_group.dev_jenkins_worker_windows.id}"
-  cidr_blocks       = ["<Your Public IP>/32"]
+  cidr_blocks       = ["0.0.0.0/0"]
   description       = "rdp to jenkins_worker_windows"
 }
 
@@ -67,7 +67,7 @@ resource "aws_security_group_rule" "jenkins_worker_windows_to_jenkins_server_334
   to_port           = 33453
   protocol          = "tcp"
   security_group_id = "${aws_security_group.dev_jenkins_worker_windows.id}"
-  cidr_blocks       = ["172.31.0.0/16"]
+  cidr_blocks       = ["0.0.0.0/0"]
   description       = "allow jenkins worker windows to jenkins server"
 }
 
